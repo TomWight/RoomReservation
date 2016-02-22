@@ -1,6 +1,7 @@
 # RoomReservation
 Simple room reservation utility
 
+## Project Outline
 
 - Design
   - Database schema diagram, even if it is a photo of something sketched on paper
@@ -20,3 +21,15 @@ Simple room reservation utility
  
 - Front-end Code
   - ..
+
+## User Stories
+- As a meeting attendee I want to find when and where my next meeting is
+- As a meeting attendee I want to get a list of future meetings
+- As a meeting organizer I want to schedule a meeting
+- As a meeting organizer I want to schedule a sequence of monthly meetings
+- As a meeting organizer I want to cancel a meeting
+- As the building manager I want to get information on who is using the building
+
+## Project Timelines
+- Feb 29 - Complete design and infrastructure tasks
+
