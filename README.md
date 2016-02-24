@@ -25,6 +25,7 @@ Simple room reservation utility
 ## User Stories
 - As a meeting attendee I want to find when and where my next meeting is
 - As a meeting attendee I want to get a list of future meetings
+- As a meetibg organizer I want to get a list of available rooms on a given afternoon or evening
 - As a meeting organizer I want to schedule a meeting
 - As a meeting organizer I want to schedule a sequence of monthly meetings
 - As a meeting organizer I want to cancel a meeting
