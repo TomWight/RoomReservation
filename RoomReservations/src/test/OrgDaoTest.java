@@ -17,6 +17,7 @@ public class OrgDaoTest {
 	@Before
 	public void setUp() {
 		testDao = new OrgDao();
+		testDao.init();
 	}
 
 	@Test
