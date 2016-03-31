@@ -1,4 +1,4 @@
-package reservations;
+package com.sw.wight.tom.roomreservations;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -48,16 +48,16 @@ public class OrgDao {
 	}
 	
 	public Org create(String name, String leader) {
-	 try {
-		orgStatement = orgConnect.prepareStatement("INSERT INTO ? ? ?");
-		orgStatement.setString(1, ORG_TABLE_NAME);
-		orgStatement.setString(2,  name);
-		orgStatement.setString(3, leader);
-		orgStatement.executeUpdate();
-	} catch (SQLException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
+//	 try {
+//		orgStatement = orgConnect.prepareStatement("INSERT INTO ? ? ?");
+//		orgStatement.setString(1, ORG_TABLE_NAME);
+//		orgStatement.setString(2,  name);
+//		orgStatement.setString(3, leader);
+//		orgStatement.executeUpdate();
+//	} catch (SQLException e) {
+//		// TODO Auto-generated catch block
+//		e.printStackTrace();
+//	}
 		Org org = new Org(nextId++, name, leader);
 		return org;
 	}

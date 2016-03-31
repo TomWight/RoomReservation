@@ -1,4 +1,4 @@
-package reservations;
+package com.sw.wight.tom.roomreservations;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

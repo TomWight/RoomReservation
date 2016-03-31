@@ -1,4 +1,4 @@
-package test;
+package com.sw.wight.tom.roomreservations;
 
 import static org.junit.Assert.*;
 
@@ -7,10 +7,7 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-import reservations.Org;
-import reservations.OrgDao;
-
-public class OrgDaoTest {
+public class TestOrgDao {
 	OrgDao testDao;
 	Org testOrg;
 

@@ -1,14 +1,14 @@
-package reservations;
+package com.sw.wight.tom.roomreservations;
 
 import java.time.LocalDateTime;
 
 public class Meeting {
-	int id;
-	int orgId;
-	int roomId;
-	String name;
-	LocalDateTime dateTime; 
-	int duration; // meeting length in minutes
+	private int id;
+	private int orgId;
+	private int roomId;
+	private String name;
+	private LocalDateTime dateTime; 
+	private int duration; // meeting length in minutes
 
 	public Meeting(int id, int orgId, int roomId, String name, LocalDateTime dateTime, int duration) {
 		this.id = id;
@@ -18,42 +18,31 @@ public class Meeting {
 		this.dateTime = dateTime;
 		this.duration = duration;
 	}
+	
 	public int getId() {
 		return id;
 	}
-	public void setId(int id) {
-		this.id = id;
-	}
+
 	public int getOrgId() {
 		return orgId;
 	}
-	public void setOrgId(int orgId) {
-		this.orgId = orgId;
-	}
+
 	public int getRoomId() {
 		return roomId;
 	}
-	public void setRoomId(int roomId) {
-		this.roomId = roomId;
-	}
+
 	public String getName() {
 		return name;
 	}
-	public void setName(String name) {
-		this.name = name;
-	}
+
 	public LocalDateTime getDateTime() {
 		return dateTime;
 	}
-	public void setDateTime(LocalDateTime dateTime) {
-		this.dateTime = dateTime;
-	}
+
 	public int getDuration() {
 		return duration;
 	}
-	public void setDuration(int duration) {
-		this.duration = duration;
-	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -66,6 +55,7 @@ public class Meeting {
 		result = prime * result + roomId;
 		return result;
 	}
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

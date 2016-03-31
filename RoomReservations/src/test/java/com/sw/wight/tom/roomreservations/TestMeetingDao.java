@@ -1,4 +1,4 @@
-package test;
+package com.sw.wight.tom.roomreservations;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
@@ -12,10 +12,7 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-import reservations.Meeting;
-import reservations.MeetingDao;
-
-public class MeetingDaoTest {
+public class TestMeetingDao{
 	MeetingDao testDao;
 	Meeting testOrg;
 

@@ -1,4 +1,4 @@
-package reservations;
+package com.sw.wight.tom.roomreservations;
 import java.sql.Date;
 import java.util.ArrayList;
 import java.util.HashMap;
